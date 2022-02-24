@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Passenger Counter</title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+
+    <body>
+        <div id="main">
+        <h1>Passenger Counter</h1>
+        <div id="count-el">
+            <!--counter number id displayed here-->
+        </div>
+        <div>
+            <button type="button" id="increment-btn" class="btn" onclick="increaseFunc()">
+                INCREASE
+            </button>
+            <button type="button" id="decrement-btn" class="btn" onclick="decreaseFunc()">
+                DECREASE
+            </button>
+            <button type="button" id="save-btn" class="btn" onclick="saveFunc()">SAVE</button>
+<br>
+<br>
+            <div id="display-ctr">People Entered: <span id= "ctr-data"></span></div>
+            <button type="button" id="reset-btn" class="btn" onclick="resetCtr()">RESET</button>
+
+    
+            
+        </div>
+        </div>
+
+    </body>
+    <script src="index.js"></script>
+
+
+</html>
