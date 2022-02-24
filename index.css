@@ -13,11 +13,9 @@ body{
     font-size: 30px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-
     height: 100vh;
 }
 .btn{
-
     text-align: center;
     display: block;
     margin-left: auto;
@@ -26,12 +24,9 @@ body{
     width: 175px;
     background-color: white;
     color:black;
-
-
     font-size: 22px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;;
-
+    font-family: 'Poppins', sans-serif;
     border-style: none;
     border-radius: 50px; 
     margin-top: 15px;
@@ -48,21 +43,10 @@ body{
     height: 65px;
     width: 205px;
 }
-
-
 #count-el{
     font-size: 150px;
     padding: 15px;
 }
-/* h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #9fa0ff;
-    color: black;
-    height: 100px;
-    text-decoration: underline;
-} */
 #display-ctr{
     display: inline-block;
     color: #9fa0ff;
