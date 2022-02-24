@@ -54,7 +54,7 @@ body{
     font-size: 150px;
     padding: 15px;
 }
-h1{
+/* h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ h1{
     color: black;
     height: 100px;
     text-decoration: underline;
-}
+} */
 #display-ctr{
     display: inline-block;
     color: #9fa0ff;
